@@ -1,0 +1,77 @@
+*{
+    margin :0;
+    padding : 0;
+    box-sizing : boder-box;
+    font-family: cursive;
+}
+body{
+    background-image: url('https://images.unsplash.com/photo-1485470733090-0aae1788d5af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHdhbGxwYXBlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60');
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+
+}
+h2{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 2rem;
+    color: white;
+    letter-spacing: 1px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.container>div{
+    border: 1px solid;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid white;
+    box-shadow: 5px 5px 15px #292929;
+}
+.container input{
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+
+.container i{
+    cursor: pointer;
+    font-size: 26px;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxes .box{
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    margin-top: -10px;
+    padding: 20px 0;
+    min-width: 360px;
+}
+.box .city{
+    font-size: 36px;
+}
+.date{
+    padding: 10px 0;
+    font-weight: 100;
+    letter-spacing: 1px;
+    color: #d9d7d7;
+}
+.weath{
+    font-weight: 200;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+.minmaxTemp{
+    padding-bottom: 30px;
+    word-spacing: 8px;
+    color: #d9d7d7;
+}
